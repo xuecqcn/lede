@@ -230,7 +230,7 @@ TARGET_DEVICES += dlink_dir-860l-b1
 
 define Device/d-team_newifi-d2
   $(Device/uimage-lzma-loader)
-  IMAGE_SIZE := 32448k
+  IMAGE_SIZE := 65216k
   DEVICE_VENDOR := Newifi
   DEVICE_MODEL := D2
   DEVICE_PACKAGES := kmod-mt7603e kmod-mt76x2e kmod-usb3 \
